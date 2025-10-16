@@ -30,8 +30,6 @@ This function is written in Python and validates Basic Authentication credential
 
 - ✅ **Multiple User Support**: Validate multiple users via JSON configuration
 - ✅ **Basic Authentication**: Standard HTTP Basic Auth with Base64 encoding
-- ✅ **Fast Validation**: O(1) dictionary lookup for user validation
-- ✅ **Comprehensive Logging**: Detailed debug and error logging
 - ✅ **API Gateway Compatible**: Works as authentication provider
 
 #### Code
@@ -43,8 +41,6 @@ This folder contains the files to deploy the `basicauth-python` function:
 - the function metadata, [func.yaml](./func.yaml)
 
 #### Configure Users
-
-![user input icon](./images/userinput.png)
 
 Before deploying, configure the users who will be validated by this function. Use JSON format to define multiple users:
 
